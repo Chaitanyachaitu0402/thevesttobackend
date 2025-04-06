@@ -10,7 +10,7 @@ const imageconfig = multer.diskStorage
     (
         {
             destination: (req, file, callback) => {
-                callback(null, "./storege/userdp")
+                callback(null, "/tmp")
             },
             filename: (req, file, callback) => {
                 callback(null, Date.now() + path.extname(file.originalname));
