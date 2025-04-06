@@ -1,0 +1,45 @@
+Id,Name,Weight1,Weight2,Weight3,Description,Stock,Visible,Low_Stock,Tax_Class,Cost_Price_1,Cost_Price_2,Cost_Price_3,Regular_Price_1,Regular_Price_2,Regular_Price_3,Sale_Price_1,Sale_Price_2,Sale_Price_3,Categories
+,Desi S-Mart Jaggery,1,2,5,Jaggery block,100,1,2,0VAT,1.35,2.7,6.75,2.49,4.731,10.64475,,,,Groceries/Sweetner
+,Milk Cake (Kalakand) ,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.65,5.3,10.6,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Milk Mysorepak,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.15,4.3,8.6,3.49,6.631,11.9358,,,,Sweets&Savouries/Desi Sweets
+,Putharekulu / Kaju Acchu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,3,6,12,4.75,9.025,16.245,,,,Sweets&Savouries/Desi Sweets
+,Mango Jelly,0.25,0.5,1,Desi Sweets,10,1,2,0VAT,1.75,3.5,7,2.99,5.681,10.2258,,,,Sweets&Savouries/Desi Sweets
+,Regi Vadiyalu,0.25,0.5,1,Desi Sweets,10,1,2,0VAT,2,4,8,2.99,5.681,10.2258,,,,Sweets&Savouries/Desi Sweets
+,Thati Tandra,0.15,0.3,0.6,Desi Sweets,10,1,2,0VAT,1.5,3,6,2.99,5.681,10.2258,,,,Sweets&Savouries/Desi Sweets
+,Groundnut Pakodi / Chikki,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.1,4.2,8.4,3.49,6.631,11.9358,,,,Sweets&Savouries/Desi Sweets
+,Kaju Pakodi,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.65,5.3,10.6,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Bandhar Halwa,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.25,4.5,9,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Besan Laddu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,3,6,12,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Boondhi Achuu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,1,2,4,1.49,2.831,5.0958,,,,Sweets&Savouries/Desi Sweets
+,Chandra kala,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.49,4.98,9.96,3.49,6.631,11.9358,,,,Sweets&Savouries/Desi Sweets
+,Dry Fruit Halwa,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.25,4.5,9,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Kaju Katli,0.25,0.5,1,Desi Sweets,10,,2,0VAT,3,6,12,4.49,8.531,15.3558,,,,Sweets&Savouries/Desi Sweets
+,Malai Mysorepak,0.25,0.5,1,Desi Sweets,10,,2,0VAT,3,6,12,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Milk Cake (Kalakand),0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.65,5.3,10.6,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Mothichoor Laddu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,3,6,12,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Sakinalu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.45,4.9,9.8,3.99,7.581,13.6458,,,,Sweets&Savouries/Desi Sweets
+,Sunnundalu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2.25,4.5,9,3.49,6.631,11.9358,,,,Sweets&Savouries/Desi Sweets
+,Thokudu Laddu,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2,4,8,3.25,6.175,11.115,,,,Sweets&Savouries/Desi Sweets
+,Vamu Poosa,0.25,0.5,1,Desi Sweets,10,,2,0VAT,2,4,8,2.99,5.681,10.2258,,,,Sweets&Savouries/Desi Sweets
+,Raw Mangoes,0.5,1,,Fruits,5,,2,0VAT,2.5,5,,3.5,6.65,,,,,Fruits & Vegitables/Fruits
+,Alphanso Mangoes,6,12,,Fruits,5,,2,0VAT,10,20,,15,28.5,,,,,Fruits & Vegitables/Fruits
+,Coriander Bunch,,,,,,,,0VAT,0.6,,,0.99,,,,,,Fruits & Vegitables/Greens
+,Curry Leaves Pack,,,,,,,,0VAT,0.6,,,0.99,,,,,,Fruits & Vegitables/Greens
+,Bombay Onion Bag 1.75-2.00kgs,,,,,,,,0VAT,2.5,,,3.99,,,,,,Fruits & Vegitables/Vegitables
+,Bottle Gourd (Dudhi),0.5,1,,,,,,0VAT,2,4,,3.5,6.65,,,,,Fruits & Vegitables/Vegitables
+,Mana Sona Masoori,10,,,,,,,0VAT,13.5,,,17.99,,,,,,Rice/Sona Masoori
+,SK Sona Masoori,10,,,,,,,0VAT,15,,,19.99,,,,,,Rice/Sona Masoori
+,Tilda Pure Basmati,1,5,10,,,,,0VAT,18.95,94.75,189.5,23.99,113.9525,205.1145,,,,Rice/Basmati
+,Village Idli Rava 1kg,1,2,,,,,,0VAT,1.75,3.5,,2.99,5.681,,,,,Flours & Ravas/Ravas
+,50-50 Maska Chaska 372g,,,,,,,,0VAT,1.75,,,2.99,,,,,,Biscuits & Chocolates/Biscuits
+,50-50 Maska Chaska 62g,1,3,5,,,,,0VAT,0.29,0.87,1.45,0.59,1.6815,2.52225,,,,Biscuits & Chocolates/Biscuits
+,KTC Amla Hair Oil 165ml,,,,,,,,0VAT,0.83,,,1.658333333,,,,,,Household/Beauty; Ghees&Oils/Oils
+,KTC Jasmine Oil 250ml,,,,,,,,0VAT,0.83,,,1.658333333,,,,,,Household/Beauty; Ghees&Oils/Oils
+,A2B Andhra Murukku 200g,,,,,,,,0VAT,1.45,,,1.99,,,,,,Sweets&Savouries/Savouries
+,A2B Butter Murukku 200g,,,,,,,,0VAT,1.45,,,1.99,,,,,,Sweets&Savouries/Savouries
+,Lays Subway Teriyaki 150g,,,,,,,,20VAT,1.3,,,1.658333333,,,,,,Sweets&Savouries/Chips
+,Lays Tomato 130g,,,,,,,,20VAT,1.3,,,1.658333333,,,,,,Sweets&Savouries/Chips
+,Parle Mango Bite 333g,,,,,,,,20VAT,1,,,1.991666667,,,,,,Sweets&Savouries/Chocolates
+,SK Mango Candy 175g,,,,,,,,0VAT,1.1,,,1.99,,,,,,Sweets&Savouries/Chocolates
+,Agririch Raisins (Kismis) 100g,,,,,,,,0VAT,0.4,,,0.99,,,,,,Sweets&Savouries/Dry Fruits
+,Desi S-Mart Cashew Broken 750g,,,,,,,,0VAT,2.78,,,4.99,,,,,,Sweets&Savouries/Chocolates

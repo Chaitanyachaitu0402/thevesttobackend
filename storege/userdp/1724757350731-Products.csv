@@ -1,0 +1,11 @@
+Id,Name,Weight,Weight1,Weight2,Weight3,Description,Stock,Visible,Low_Stock,Tax_Class,Cost_Price,Cost_Including_VAT,Regular_Price,Sale_Price,Sale_Including_VAT,Margin,Margin_Percentage,Cost_Price_1,Cost_1_Including_VAT,Regular_Price_1,Sale_Price_1,Sale_Regular_Including_VAT_1,Margin_1,Margin_1_Percentage,Cost_Price_2,Cost_2_Including_VAT,Regular_Price_2,Sale_Price_2,Sale_Regular_Including_VAT_2,Margin_2,Margin_2_percentage,Cost_Price_3,Cost_3_Including_VAT,Regular_Price_3,Sale_Price_3,Sale_Regular_Including_VAT_3,Margin_3,Margin_3_Percentage,Categories
+200205,Chupa Chups Squeezee Frzpopg 12 X 45Ml,100,1,2,3,,14,,2,20VAT,1.08,,1.59,1.5,,,,100,,150,120,,,,200,,300,250,,,,300,,400,350,,,,test
+,Costa Latte 250Ml,200,11,12,13,,5,,2,20VAT,0.948,,1.59,1.5,,,,200,,160,130,,,,300,,400,300,,,,400,,500,400,,,,
+,Frooti 600Ml,30,10,10,10,,3,,2,0,1.32,,1.59,1.5,,,,300,,170,140,,,,400,,500,350,,,,500,,600,450,,,,
+,Fruit Shoot Squeezee 12 X 45Ml,40,10,10,10,,1,,2,0,1.08,,1.59,1.5,,,,400,,180,150,,,,500,,600,400,,,,600,,700,500,,,,
+,Grace Coconut Water 1Lt,50,10,10,10,,5,,2,20VAT,2.76,,3.49,,,,,500,,190,160,,,,600,,700,450,,,,700,,800,550,,,,Beverages
+,Irn Bru 2Lt,60,10,10,10,,6,,2,0,1.18,,1.59,1.5,,,,600,,200,170,,,,700,,800,500,,,,800,,900,600,,,,
+,Schw Lemonade S/L 2Ltr,70,10,10,10,,5,,2,20VAT,1.2672,,1.75,,,,,700,,210,180,,,,800,,900,550,,,,900,,1000,650,,,,Papad
+,Tango Dark Berry Sf 2Lt,80,10,10,10,,12,,2,20VAT,1.26,,1.89,,,,,800,,220,190,,,,900,,1000,600,,,,1000,,1100,700,,,,Papad
+,Ts Coconut drink 520Ml,90,10,10,10,,5,,2,20VAT,1.5,,1.99,,,,,900,,230,200,,,,1000,,1100,650,,,,1100,,1200,750,,,,Papad
+,,,,,,,,,,,,,,,,,,1000,,240,210,,,,1100,,1200,700,,,,1200,,1300,800,,,,
