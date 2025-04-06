@@ -1,3 +1,6 @@
+require('mysql2');
+
+
 const { Sequelize, Model } = require('sequelize')
 const usermodel = require('./model/user')
 const categoriesModel = require('./model/categories')
@@ -48,7 +51,7 @@ const sequelize = new Sequelize(
     {
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
-        dialect: process.env.DB_PROVIDER,
+        dialect: 'mysql',
     }
 )
 
