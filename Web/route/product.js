@@ -3,16 +3,27 @@ const multer = require('multer');
 const { createProduct, updateProduct, deleteProduct, deleteProductByName, getProductById,
      getAllProduct, searchProductDetails, bulkProductUpload,updateProductImage,getProductByCategoryId, getProductByName } = require('../services/product');
 const router = express.Router();
+const path = require('path')
 
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        cb(null, './storege/userdp');
-    },
-    filename: (req, file, cb) => {
-        cb(null, `${Date.now()}-${file.originalname}`);
-    },
-});
-const upload = multer({ storage });
+const imageconfig = multer.diskStorage
+    (
+        {
+            destination: (req, file, callback) => {
+                callback(null, "/tmp")
+            },
+            filename: (req, file, callback) => {
+                callback(null, Date.now() + path.extname(file.originalname));
+            }
+        }
+    )
+var upload = multer(
+    {
+        storage: imageconfig,
+        limits: {
+            fileSize: 1000000000
+        }
+    }
+);
 
 router.post('/create-product', upload.single('Product_image'), async (req, res) => {
     const response = await createProduct(req);
