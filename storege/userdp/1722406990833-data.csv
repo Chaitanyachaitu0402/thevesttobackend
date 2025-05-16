@@ -1,6 +1,0 @@
-ID,Name,Weight1,Weight2,Weight3,Weight4,Weight5,Weight6,Weight7,Weight8,Weight9,Weight10,Cost1,Cost2,Cost3,Cost4,Cost5,Cost6,Cost7,Cost8,Cost9,Cost10,Published,Isfeatured,Shortdescription,Description,Datesalepricestarts,Datesalepriceends,TaxClass,Instock,Stock,Lowstockamount,Allowcustomerreviews,CostPrice,CostIncVAT,SalePrice,Regularprice,Margin,categories
-1,Grace Coconut Water 1Lt,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,Abcd,Abcdefgh,15-Jul,30-Jul,20VAT,1,5,2,1,2.3,,2,3.49,,Beverages
-2,Ts Coconut Water 520Ml,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,,,15-Jul,30-Jul,20VAT,1,5,2,1,1.04,,1.5,1.99,,Beverages
-3,Tango Dark Berry Sf 2Lt,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,,,,,20VAT,1,12,2,1,1.05,,,1.89,,Beverages
-4,Maltesers Shake 350Ml,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,,,,,NoTax,1,8,2,1,0.81,,,1.49,,Beverages
-5,Vita Coco Natural Coconut Water 330ml,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,,,,,NoTax,1,3,2,1,0.62,,,1.25,,Beverages
