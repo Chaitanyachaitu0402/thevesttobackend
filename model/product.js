@@ -12,7 +12,6 @@ module.exports = (Sequelize) => {
         Price: { type: DataTypes.STRING, },
         Description: { type: DataTypes.STRING, },
         Product_image: { type: DataTypes.STRING, },
-        COD: { type: DataTypes.STRING, },
     }, {
         timestamps: true,
         tableName: 'product'
