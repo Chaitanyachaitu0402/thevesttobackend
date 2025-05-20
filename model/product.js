@@ -13,6 +13,11 @@ module.exports = (Sequelize) => {
         ActualPrice: { type: DataTypes.STRING, },
         Description: { type: DataTypes.STRING, },
         Product_image: { type: DataTypes.STRING, },
+        Product_image1: { type: DataTypes.STRING, },
+        Product_image2: { type: DataTypes.STRING, },
+        Product_image3: { type: DataTypes.STRING, },
+        Product_image4: { type: DataTypes.STRING, },
+        Product_image5: { type: DataTypes.STRING, },
     }, {
         timestamps: true,
         tableName: 'product'
