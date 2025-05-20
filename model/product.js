@@ -10,6 +10,7 @@ module.exports = (Sequelize) => {
         },
         Name: { type: DataTypes.STRING, },
         Price: { type: DataTypes.STRING, },
+        ActualPrice: { type: DataTypes.STRING, },
         Description: { type: DataTypes.STRING, },
         Product_image: { type: DataTypes.STRING, },
     }, {
