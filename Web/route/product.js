@@ -25,14 +25,26 @@ var upload = multer(
     }
 );
 
-router.post('/create-product', upload.single('Product_image'), async (req, res) => {
-    const response = await createProduct(req);
-    if (response.success) {
-        res.json(response)
-    } else {
+router.post(
+    '/create-product',
+    upload.fields([
+      { name: 'Product_image', maxCount: 1 },
+      { name: 'Product_image1', maxCount: 1 },
+      { name: 'Product_image2', maxCount: 1 },
+      { name: 'Product_image3', maxCount: 1 },
+      { name: 'Product_image4', maxCount: 1 },
+      { name: 'Product_image5', maxCount: 1 }
+    ]),
+    async (req, res) => {
+      const response = await createProduct(req);
+      if (response.success) {
+        res.json(response);
+      } else {
         res.status(500).json(response);
+      }
     }
-});
+  );
+  
 
 router.post('/update-product', upload.single('Product_image'), async (req, res) => {
     const response = await updateProduct(req);
