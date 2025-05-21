@@ -3,7 +3,6 @@ const multer = require('multer');
 const { createProduct, updateProduct, deleteProduct, deleteProductByName, getProductById,
      getAllProduct, searchProductDetails, bulkProductUpload,updateProductImage,getProductByCategoryId, getProductByName } = require('../services/product');
 const router = express.Router();
-const path = require('path')
 
 const imageconfig = multer.diskStorage
     (

@@ -101,7 +101,7 @@ const createtable = () => {
         orders.sync({ alter: false })
         wallet.sync({ alter: false })
         contact.sync({ alter: false })
-        product.sync({ alter: false })
+        product.sync({ alter: true })
         card.sync({ alter: false })
         pincode.sync({ alter: false })
         wishlist.sync({ alter: false })
