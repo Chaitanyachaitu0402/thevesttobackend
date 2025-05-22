@@ -14,12 +14,82 @@ const createProduct = async (productData) => {
     }
 };
 
-const updateProduct = async (id, productData) => {
+const updateProduct1 = async (id, productData) => {
+    console.log("Updating product with ID:", id);
+    console.log("New Data:", productData);
     try {
-        const response = await productModel.update(productData, { where: { Id: id } });
-        return response;
+        const [affectedCount] = await productModel.update(productData, { where: { Id: id } });
+        if (affectedCount === 0) {
+            console.log("No rows updated. Possible invalid ID.");
+            return { updated: false };
+        }
+        return { updated: true };
     } catch (error) {
-        console.log("Error in updating product in controller.....", error);
+        console.log("Error in updating product in controller:", error);
+        throw error;
+    }
+};
+
+const updateProduct2 = async (id, productData) => {
+    console.log("Updating product with ID:", id);
+    console.log("New Data:", productData);
+    try {
+        const [affectedCount] = await productModel.update(productData, { where: { Id: id } });
+        if (affectedCount === 0) {
+            console.log("No rows updated. Possible invalid ID.");
+            return { updated: false };
+        }
+        return { updated: true };
+    } catch (error) {
+        console.log("Error in updating product in controller:", error);
+        throw error;
+    }
+};
+
+const updateProduct3 = async (id, productData) => {
+    console.log("Updating product with ID:", id);
+    console.log("New Data:", productData);
+    try {
+        const [affectedCount] = await productModel.update(productData, { where: { Id: id } });
+        if (affectedCount === 0) {
+            console.log("No rows updated. Possible invalid ID.");
+            return { updated: false };
+        }
+        return { updated: true };
+    } catch (error) {
+        console.log("Error in updating product in controller:", error);
+        throw error;
+    }
+};
+
+const updateProduct4 = async (id, productData) => {
+    console.log("Updating product with ID:", id);
+    console.log("New Data:", productData);
+    try {
+        const [affectedCount] = await productModel.update(productData, { where: { Id: id } });
+        if (affectedCount === 0) {
+            console.log("No rows updated. Possible invalid ID.");
+            return { updated: false };
+        }
+        return { updated: true };
+    } catch (error) {
+        console.log("Error in updating product in controller:", error);
+        throw error;
+    }
+};
+
+const updateProduct5 = async (id, productData) => {
+    console.log("Updating product with ID:", id);
+    console.log("New Data:", productData);
+    try {
+        const [affectedCount] = await productModel.update(productData, { where: { Id: id } });
+        if (affectedCount === 0) {
+            console.log("No rows updated. Possible invalid ID.");
+            return { updated: false };
+        }
+        return { updated: true };
+    } catch (error) {
+        console.log("Error in updating product in controller:", error);
         throw error;
     }
 };
@@ -137,7 +207,11 @@ const bulkProductUpload = async (productData) => {
 
 module.exports = {
     createProduct,
-    updateProduct,
+    updateProduct1,
+    updateProduct2,
+    updateProduct3,
+    updateProduct4,
+    updateProduct5,
     deleteProduct,
     deleteProductByName,
     getProductById,

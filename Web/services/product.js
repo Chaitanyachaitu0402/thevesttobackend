@@ -30,36 +30,75 @@ const createProduct = async (userData) => {
 };
 
 // UPDATE PRODUCT
-const updateProduct = async (userData) => {
+const updateProduct1 = async (userData) => {
     try {
-        // const token = userData.headers.authorization;
-        // if (!token) {
-        //     return errorResponse("Missing Token");
-        // }
-        // const decodedData = await verifyToken(token, process.env.JWT_TOKEN_SECRETE_KEY);
-        // if (decodedData == "invalidtoken") {
-        //     return errorResponse(decodedData);
-        // }
-        // if (decodedData.role == "admin") {
-        //     if (userData.file) {
-        //         const getUserDate = await product_controller.getProductById(userData.body.Id);
-        //         if (getUserDate.Product_image !== null) {
-        //             await deleteImage(getUserDate.Product_image);
-        //             userData.body.Product_image = userData.file.filename;
-        //         } else {
-        //             userData.body.Product_image = userData.file.filename;
-        //         }
-        //     }
-            const updatedData = await product_controller.updateProduct(userData.body.Id, userData.body);
+        if (userData.file) {
+            userData.body.Product_image1 = userData.file.filename;
+        }
+            const updatedData = await product_controller.updateProduct1(userData.body.Id, userData.body);
             return successResponse(updatedData);
-        // }
-        // return errorResponse("access denied....!");
+        
     } catch (error) {
         console.log("Error in update Product in services.....!", error);
         return errorResponse("Error in update Product in services");
     }
 };
 
+const updateProduct2 = async (userData) => {
+    try {
+        if (userData.file) {
+            userData.body.Product_image2 = userData.file.filename;
+        }
+            const updatedData = await product_controller.updateProduct2(userData.body.Id, userData.body);
+            return successResponse(updatedData);
+        
+    } catch (error) {
+        console.log("Error in update Product in services.....!", error);
+        return errorResponse("Error in update Product in services");
+    }
+};
+
+const updateProduct3 = async (userData) => {
+    try {
+        if (userData.file) {
+            userData.body.Product_image3 = userData.file.filename;
+        }
+            const updatedData = await product_controller.updateProduct3(userData.body.Id, userData.body);
+            return successResponse(updatedData);
+        
+    } catch (error) {
+        console.log("Error in update Product in services.....!", error);
+        return errorResponse("Error in update Product in services");
+    }
+};
+
+const updateProduct4 = async (userData) => {
+    try {
+        if (userData.file) {
+            userData.body.Product_image4 = userData.file.filename;
+        }
+            const updatedData = await product_controller.updateProduct4(userData.body.Id, userData.body);
+            return successResponse(updatedData);
+        
+    } catch (error) {
+        console.log("Error in update Product in services.....!", error);
+        return errorResponse("Error in update Product in services");
+    }
+};
+
+const updateProduct5 = async (userData) => {
+    try {
+        if (userData.file) {
+            userData.body.Product_image5 = userData.file.filename;
+        }
+            const updatedData = await product_controller.updateProduct5(userData.body.Id, userData.body);
+            return successResponse(updatedData);
+        
+    } catch (error) {
+        console.log("Error in update Product in services.....!", error);
+        return errorResponse("Error in update Product in services");
+    }
+};
 
 const updateProductImage = async (userData) => {
     try {
@@ -385,7 +424,11 @@ const calculateVATAndMargin = (costPrice, salePrice, regularPrice, taxClass) => 
 
 module.exports = {
     createProduct,
-    updateProduct,
+    updateProduct1,
+    updateProduct2,
+    updateProduct3,
+    updateProduct4,
+    updateProduct5,
     deleteProduct,
     getProductById,
     getAllProduct,
