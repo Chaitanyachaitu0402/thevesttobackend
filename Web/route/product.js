@@ -34,7 +34,7 @@ router.post('/create-product', upload.single('Product_image'), async (req, res) 
     }
 });
 
-router.post('/update-product', upload.single('Product_image'), async (req, res) => {
+router.post('/update-product', upload.single('Product_image1'), async (req, res) => {
     const response = await updateProduct(req);
     if (response.success) {
         res.json(response)
