@@ -31,12 +31,13 @@ const createOrder = async (userData) => {
         //         userData.body.order_image = userData.file.filename
         //     }
 
-        if (userData.file) {
-            userData.body.screenshot = userData.file.filename;
-        }
-            const response = await orders_controller.createOrder(userData.body);
+        // if (userData.file) {
+        //     userData.body.screenshot = userData.file.filename;
+        // }
+        console.log(userData.body)
+        const response = await orders_controller.createOrder(userData.body);
 
-            return successResponse(response);
+        return successResponse(response);
         // }
     }
     catch (error) {
@@ -58,8 +59,8 @@ const updateOrder = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const updatedData = await orders_controller.updateOrder(userData.body.order_id, userData.body)
-            return successResponse(updatedData)
+        const updatedData = await orders_controller.updateOrder(userData.body.order_id, userData.body)
+        return successResponse(updatedData)
         // }
         // return errorResponse("access denaine....!")
 
@@ -81,8 +82,8 @@ const updateOrderbyname = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const updatedData = await orders_controller.updateOrderbyname(userData.body.user_name, userData.body)
-            return successResponse(updatedData)
+        const updatedData = await orders_controller.updateOrderbyname(userData.body.user_name, userData.body)
+        return successResponse(updatedData)
         // }
         // return errorResponse("access denaine....!")
 
@@ -106,8 +107,8 @@ const updateStatusByUserId = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const updatedData = await orders_controller.updateStatusByUserId(userData.body.order_id, userData.body)
-            return successResponse(updatedData)
+        const updatedData = await orders_controller.updateStatusByUserId(userData.body.order_id, userData.body)
+        return successResponse(updatedData)
         // }
         // return errorResponse("access denaine....!")
 
@@ -130,8 +131,8 @@ const deleteOrder = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const deletedData = await orders_controller.deleteOrder(userData.body.order_id, userData.body)
-            return successResponse(deletedData)
+        const deletedData = await orders_controller.deleteOrder(userData.body.order_id, userData.body)
+        return successResponse(deletedData)
         // }
         return errorResponse("access denied...!")
     } catch (error) {
@@ -153,8 +154,8 @@ const getOrderById = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const response = await orders_controller.getOrderById(userData.body.order_id)
-            return successResponse(response)
+        const response = await orders_controller.getOrderById(userData.body.order_id)
+        return successResponse(response)
         // }
     } catch (error) {
         console.log("Error in get by id order in  servicess.....!", error)
@@ -187,8 +188,8 @@ const getOrderByUserId = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const response = await orders_controller.getOrderByUserId(userData.body.user_id)
-            return successResponse(response)
+        const response = await orders_controller.getOrderByUserId(userData.body.user_id)
+        return successResponse(response)
         // }
     } catch (error) {
         console.log("Error in get by id order in  servicess.....!", error)
@@ -207,8 +208,8 @@ const getOrderByUserName = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const response = await orders_controller.getOrderByUserName(userData.body.user_name)
-            return successResponse(response)
+        const response = await orders_controller.getOrderByUserName(userData.body.user_name)
+        return successResponse(response)
         // }
     } catch (error) {
         console.log("Error in get by id order in  servicess.....!", error)
@@ -229,8 +230,8 @@ const getAllOrder = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData.role == "admin") {
-            const response = await orders_controller.getAllOrder(userData.body)
-            return successResponse(response)
+        const response = await orders_controller.getAllOrder(userData.body)
+        return successResponse(response)
         // }
 
     } catch (error) {
@@ -252,8 +253,8 @@ const countAllOrder = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData.role == "admin") {
-            const response = await orders_controller.countAllOrder(userData.body)
-            return successResponse(response)
+        const response = await orders_controller.countAllOrder(userData.body)
+        return successResponse(response)
         // }
 
     } catch (error) {
@@ -277,12 +278,12 @@ const countAllOrderByUserId = async (userData) => {
         //     return errorResponse(decodedData);
         // }
         // if (decodedData.role == "admin") {
-            const response = await orders_controller.countAllOrderByUserId(userData.body.user_id);
-            // Append user_id to the response
-            return successResponse({
-                user_id: userData.body.user_id,
-                data: response
-            });
+        const response = await orders_controller.countAllOrderByUserId(userData.body.user_id);
+        // Append user_id to the response
+        return successResponse({
+            user_id: userData.body.user_id,
+            data: response
+        });
         // }
     } catch (error) {
         console.log("Error in get all order in services.....!", error);
@@ -305,8 +306,8 @@ const searchOrderDetails = async (userData) => {
         //     return errorResponse(decodedData)
         // }
         // if (decodedData) {
-            const Response = await orders_controller.searchOrderDetails(userData.body)
-            return successResponse(Response)
+        const Response = await orders_controller.searchOrderDetails(userData.body)
+        return successResponse(Response)
         // }
         // return errorResponse("access denied...!")
     } catch (error) {

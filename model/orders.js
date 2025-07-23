@@ -31,8 +31,8 @@ module.exports = (Sequelize) => {
 
             email: { type: DataTypes.STRING, },
 
-            screenshot: { type: DataTypes.STRING, },
-            
+            screenshot: { type: DataTypes.TEXT, },
+
             products: { type: DataTypes.STRING, },
 
             quantity: { type: DataTypes.STRING, },
@@ -44,7 +44,7 @@ module.exports = (Sequelize) => {
             modeofpayment: { type: DataTypes.STRING, },
 
             ordered_date: { type: DataTypes.STRING, },
-      
+
 
             status: {
                 type: DataTypes.STRING,

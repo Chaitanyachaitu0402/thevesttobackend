@@ -7,7 +7,10 @@ const { errorResponse } = require('../services/response');
 // CREATE ORDERS
 
 const createOrder = async (userData) => {
+    console.log(userData);
+
     try {
+        console.log(userData);
         const newUser = await orderModel.create(userData);
         return newUser;
     }

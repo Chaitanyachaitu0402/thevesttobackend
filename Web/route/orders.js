@@ -12,23 +12,13 @@ const imageconfig = multer.diskStorage
             destination: (req, file, callback) => {
                 callback(null, "/tmp")
             },
-            filename: (req, file, callback) => {
-                callback(null, Date.now() + path.extname(file.originalname));
-            }
         }
     )
-var upload = multer(
-    {
-        storage: imageconfig,
-        limits: {
-            fileSize: 1000000000
-        }
-    }
-);
+var upload = multer();
 
 // CREATE ORDERS
 
-router.post('/create-order', upload.single("screenshot"), async (req, res) => {
+router.post('/create-order', upload.none(), async (req, res) => {
     const response = await orderService.createOrder(req);
     if (response.success) {
         res.json(response)

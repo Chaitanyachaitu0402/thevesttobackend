@@ -1,18 +1,18 @@
-const successResponse=(data)=>({
-    
+const successResponse = (data) => ({
+
     data: data,
     error: null,
-    success:true
+    success: true
 })
-const errorResponse=(data)=>({
-error: data,
-message: "User not found",
-success:false
+const errorResponse = (data) => ({
+    error: data,
+    message: "User not found",
+    success: false
 
 })
 
-module.exports=
+module.exports =
 {
-successResponse,
-errorResponse
+    successResponse,
+    errorResponse
 }
